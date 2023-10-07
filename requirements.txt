@@ -1,0 +1,11 @@
+geopandas
+joblib
+numpy
+osmnx
+PIL
+shapely
+torch
+torchvision
+tqdm
+transformers
+
