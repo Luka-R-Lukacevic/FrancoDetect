@@ -3,6 +3,7 @@ joblib
 numpy
 osmnx
 PIL
+requests
 shapely
 torch
 torchvision
