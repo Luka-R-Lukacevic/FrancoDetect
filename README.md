@@ -6,7 +6,7 @@ FrancoDetect is a model that aims to guess the location in France based off an i
 ![](overview.png)
 
 ## Usage
-To use our model, simply clone this repository and install the necessary requirements found [here](requirements.txt). You can then load the images you want to have located into the [test pictures](test_pictures) folder and run the [Jupyter Notebook](Test%20Model.ipynb) (or you can of course use the pictures that are already in the folder by default). If you want to test the model in a real geoguessr game you can use the [web_application](web_application.py) script as a template. It should be noted however that to do so you will need to taylor the parameters used in the script to your device's and your browser's specifications.
+To use our model, simply clone this repository and install the necessary requirements found [here](requirements.txt). You can then load the images you want to have located into the [test pictures](test_pictures) folder and run the [Jupyter Notebook](Test%20Model.ipynb) (or you can of course use the pictures that are already in the folder by default). If you want to test the model in a real geoguessr game you can use the [web application](web_interface/Web%20Application.py) script as a template. It should be noted however that to do so you will need to taylor the parameters used in the script to your device's and your browser's specifications.
 
 ## Example usage
 We are playing a round of geoguessr with our AI using the [web application](web_interface/Web%20Application.py) script (note: I did not pick an exceptionally good round). To do so, we start a game in our browser and then run the Python script. A geoguessr game consists of five locations, in each of which we first make a screenshot of the following form:
